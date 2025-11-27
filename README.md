@@ -1,11 +1,11 @@
 # Capstone Project Report: 
-# StyleHaven Fashion Catalogue
-# Project Title: Prompt-Powered Kickstart: Building "StyleHaven" E-Commerce with Ruby on Rails and TailwindCSSProject 
-# Data Details
-# Technology Chosen: Ruby on Rails 7.x (Backend) & TailwindCSS (Frontend)
-# Project Goal: Create a fully functional, interactive fashion catalogue with cart, search, and filtering, using AI prompts for rapid development.
-# Submission Date: November 2025
-# Author: Fortune Ngili
+ StyleHaven Fashion Catalogue
+ Project Title: Prompt-Powered Kickstart: Building "StyleHaven" E-Commerce with Ruby on Rails and TailwindCSSProject 
+ Data Details
+ Technology Chosen: Ruby on Rails 7.x (Backend) & TailwindCSS (Frontend)
+ Project Goal: Create a fully functional, interactive fashion catalogue with cart, search, and filtering, using AI prompts for rapid development.
+ Submission Date: November 2025
+ Author: Fortune Ngili
 # Table of Contents. 
 🎯 Overview & Objectives. 
 ✨ Features and Functionality. 
@@ -85,3 +85,4 @@ Set root "products#index" in config/routes.rb.VI.
 
 # References:
 https://github.com/Fortunengili/Fashion-app.git
+
