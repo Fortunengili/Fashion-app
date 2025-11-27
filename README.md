@@ -1,17 +1,18 @@
 # Capstone Project Report: 
-StyleHaven Fashion CatalogueProject TitlePrompt-Powered Kickstart: 
-Building "StyleHaven" E-Commerce with Ruby on Rails and TailwindCSSProject 
-Data DetailsTechnology ChosenRuby on Rails 7.x (Backend) & TailwindCSS (Frontend)
-Project GoalCreate a fully functional, interactive fashion catalogue with cart, search, and filtering, using AI prompts for rapid development.
-Submission DateNovember 2025
-Author: Fortune Ngili
-# Table of ContentsI. 
-🎯 Overview & ObjectivesII. 
-✨ Features and FunctionalityIII. 
-💻 System Requirements & InstallationIV. 
-🤖 AI Prompt JournalV. 
-🚨 Common Issues & SolutionsVI. 
-🔗 Code Snippets and ReferencesI. 
+# StyleHaven Fashion Catalogue
+# Project Title: Prompt-Powered Kickstart: Building "StyleHaven" E-Commerce with Ruby on Rails and TailwindCSSProject 
+# Data Details
+# Technology Chosen: Ruby on Rails 7.x (Backend) & TailwindCSS (Frontend)
+# Project Goal: Create a fully functional, interactive fashion catalogue with cart, search, and filtering, using AI prompts for rapid development.
+# Submission Date: November 2025
+# Author: Fortune Ngili
+# Table of Contents. 
+🎯 Overview & Objectives. 
+✨ Features and Functionality. 
+💻 System Requirements & Installation. 
+🤖 AI Prompt Journa. 
+🚨 Common Issues & Solutions. 
+🔗 References. 
 # Overview & ObjectivesProject Objective:
 The primary objective was to leverage Generative AI (GenAI) prompts to quickly learn and implement a full-stack application using a new technology (Ruby on Rails). The resulting application, "StyleHaven," is an e-commerce catalogue demonstrating core shopping functionalities.
 # Why This Tech Stack?
@@ -24,7 +25,7 @@ The final product is a fully functional, responsive catalogue that includes:25+ 
 # II.  Features and Functionality
 It has a search bar, filter bar, add to cart functionality and a product detail modal.
 Functionality: the user can click add to cart and view the added items in the cart area.
-# III. 💻System Requirements & Installation
+# III. System Requirements & Installation
 System Requirements- RubyVersion 3.0 or higher
 RailsVersion 7.0 or higher
 Node.js & npmLatest stable version (Crucial for Tailwind)
@@ -67,7 +68,7 @@ Evaluation: Great
 Response:
 "Generated boilerplate data to instantly fulfill the 5+ item requirement, saving significant data entry time.
 Response: Great
-# V. 🚨 Common Issues & Solutions
+# V.  Common Issues & Solutions
 # Issue Encountered:
 Cause Resolution Propshaft:
 Missing Asset Error The HTML was trying to load tailwind.css, but the file was not built yet.
