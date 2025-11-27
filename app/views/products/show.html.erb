@@ -1,0 +1,62 @@
+<div class="min-h-screen py-10 px-4">
+  <div class="max-w-6xl mx-auto">
+    <!-- Back Button -->
+    <%= link_to products_path, class: "inline-flex items-center text-gray-600 hover:text-gray-800 mb-6" do %>
+      <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+      </svg>
+      Back to Products
+    <% end %>
+    
+    <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+      <div class="grid md:grid-cols-2 gap-8 p-8">
+        <!-- Product Image -->
+        <div class="rounded-lg overflow-hidden">
+          <%= image_tag @product.image_url, 
+              alt: @product.name,
+              class: "w-full h-full object-cover" %>
+        </div>
+        
+        <!-- Product Info -->
+        <div>
+          <span class="text-sm font-semibold text-purple-600 uppercase tracking-wide">
+            <%= @product.category %>
+          </span>
+          
+          <h1 class="text-4xl font-bold text-gray-800 mt-2">
+            <%= @product.name %>
+          </h1>
+          
+          <p class="text-4xl font-bold text-gray-900 mt-6">
+            $<%= sprintf('%.2f', @product.price) %>
+          </p>
+          
+          <p class="text-gray-600 mt-6 leading-relaxed">
+            <%= @product.description %>
+          </p>
+          
+          <!-- Features -->
+          <div class="mt-8">
+            <h4 class="font-semibold text-gray-800 mb-3">Features:</h4>
+            <ul class="list-disc list-inside text-gray-600 space-y-2">
+              <li>Premium quality materials</li>
+              <li>Available in multiple sizes</li>
+              <li>Free shipping on orders over $100</li>
+              <li>30-day return policy</li>
+            </ul>
+          </div>
+          
+          <!-- Add to Cart Button -->
+          <%= button_to add_to_cart_path(@product), 
+              method: :post,
+              class: "w-full bg-black text-white py-3 px-6 rounded-md mt-8 hover:bg-gray-800 transition-colors duration-200 flex items-center justify-center gap-2" do %>
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path>
+            </svg>
+            Add to Cart
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
