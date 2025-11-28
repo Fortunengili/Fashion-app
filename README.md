@@ -85,4 +85,7 @@ Set root "products#index" in config/routes.rb.VI.
 
 # References:
 https://github.com/Fortunengili/Fashion-app.git
+# Screenshot:
+<img width="954" height="438" alt="image" src="https://github.com/user-attachments/assets/e9be41d5-782d-40a6-aa31-a29a70fb83ad" />
+
 
